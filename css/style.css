@@ -204,3 +204,40 @@ line-height: 32px;
     border-radius: 50%;
     margin-left: 10px;
 }
+
+.footer {
+    padding: 60px 0px;
+}
+
+.footer-nav {
+    margin-right: auto;
+    margin-left: 35px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-link {
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+    display: inline;
+    color: #595959;
+    text-decoration: none;
+}
+.footer-link:not(:last-child) {
+    margin-right: 15px;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 21px;
+}
